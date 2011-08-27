@@ -1,0 +1,32 @@
+This jQuery plugin faciliates the classic two-column left/right picker. The plugin operates on a specified UL. The following
+html fragment is an example:
+
+<div id="picker">
+	<ul id="pickerDataSource">
+		<li value="1">Item 1</li>
+		<li value="2">Item 2</li>
+		<li value="3">Item 3</li>
+    </ul>
+</div>
+
+A full working example is contained in the picker.html file, which is in the root of the project on github. 
+
+The following code invokes the picker against the aforementioned UL"
+
+$("#pickerDataSource").picker();
+
+In some cases, you will have pre-selected items. The following code will move id's 1 and 2 to the selected list:
+
+$("#pickerDataSource").picker({selectedItems: [1,2]});
+
+This plugin is fully ThemeRoller compatable. The themes ui-lightness, ui-darkness and sunny are included as examples. Simply change the css 
+reference in the example picker.html page and you will see plugin change accordingly. 
+
+There are a battery of tests in the /tests folder.
+
+
+Enjoy...
+
+< JVP >
+twitter: @johnvpetersen
+

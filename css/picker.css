@@ -1,0 +1,42 @@
+
+.button
+{
+	width: 50px;
+}
+
+.buttons 
+{
+	float: left; 
+	width: 50px; 
+	margin-right: 20px;
+	min-height:200px; 
+}
+
+.select {
+	
+	width: 200px;
+	min-height:200px 
+}
+
+.list
+	{
+		float: left; 
+		width: 200px; 
+		margin-right: 20px;
+	    min-height:200px; 
+	}
+
+li { 
+	color:blue; 
+	}
+
+#source li:nth-child(odd) 
+{ 
+	color:green; 
+	}
+
+#source li:nth-child(even) 
+{ 
+	color:red; 
+	
+	}
